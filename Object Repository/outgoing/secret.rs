@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>secret</name>
+   <tag></tag>
+   <elementGuidId>e8680126-8ed1-4855-a8cf-7875b6a342e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//md-select-value[@id='select_value_label_183']/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#select_value_label_183 > span.md-select-icon</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;select_value_label_183&quot;)/span[@class=&quot;md-select-icon&quot;][count(. | //span[@class = 'md-select-icon' and @aria-hidden = 'true']) = count(//span[@class = 'md-select-icon' and @aria-hidden = 'true'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md-select-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select_value_label_183&quot;)/span[@class=&quot;md-select-icon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//md-select-value[@id='select_value_label_183']/span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/md-input-container/md-select/md-select-value/span[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

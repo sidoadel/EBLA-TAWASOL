@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add outgoing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dabb56af-57df-4266-a1d8-6d47f1127a97</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\andalosya\\\\Desktop\\\\test.pdf'</defaultValue>
+      <description></description>
+      <id>6f2d26af-c4f0-484d-b650-049ace2674fb</id>
+      <masked>false</masked>
+      <name>upload</name>
+   </variable>
+</TestCaseEntity>
