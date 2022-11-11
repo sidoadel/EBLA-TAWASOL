@@ -23,7 +23,7 @@ WebUI.click(findTestObject('outgoing/add outgoing Icon'))
 
 WebUI.click(findTestObject('outgoing/simple add'))
 
-WebUI.waitForPageLoad(2)
+WebUI.waitForPageLoad(5)
 
 WebUI.setText(findTestObject('outgoing/ (1)'), 'Autmoation Add Outgoing')
 
