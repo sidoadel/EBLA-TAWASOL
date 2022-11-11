@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://eblaepm.no-ip.org:9080/ui/#/loading/entity/motc')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('outgoing/input_English_username'), 'nr7')
+WebUI.setText(findTestObject('outgoing/input_English_username'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('outgoing/input__password'), 'znlRn9TMc3s=')
+WebUI.setEncryptedText(findTestObject('outgoing/input__password'), GlobalVariable.pw)
 
 WebUI.click(findTestObject('outgoing/button_'))
 

@@ -4,4 +4,24 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'nr7'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'znlRn9TMc3s='</initValue>
+      <name>pw</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://eblaepm.no-ip.org:9080/ui/#/loading/entity/motc'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\\\Users\\\\andalosya\\\\Desktop\\\\double sign test.docx'</initValue>
+      <name>upload</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

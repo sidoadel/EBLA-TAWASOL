@@ -51,7 +51,7 @@ WebUI.click(findTestObject('outgoing/dep3'))
 
 WebUI.click(findTestObject('outgoing/span_amira sub -'))
 
-WebUI.uploadFile(findTestObject('outgoing/input__upload-file-content'), upload)
+WebUI.uploadFile(findTestObject('outgoing/input__upload-file-content'), GlobalVariable.upload)
 
 WebUI.click(findTestObject('outgoing/Save doc'))
 
