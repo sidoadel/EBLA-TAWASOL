@@ -17,47 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Outgoing Cycle/Add Simple outgoing'), [('upload') : 'C:\\\\Users\\\\andalosya\\\\Desktop\\\\double sign test.docx'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_/add outgoing Icon'))
+WebUI.click(findTestObject('send outgoing/Page_/Ok'))
 
-WebUI.click(findTestObject('Page_/simple add'))
+WebUI.switchToFrame(findTestObject('send outgoing/Page_/Page_/popubp'), 3)
 
-WebUI.scrollToElement(findTestObject('Page_/input__upload-file-content'), 5)
+WebUI.waitForElementVisible(findTestObject('Page_/md-icon'), 5)
 
-WebUI.uploadFile(findTestObject('Page_/input__upload-file-content'), upload)
+WebUI.click(findTestObject('send outgoing/Page_/md-icon'))
 
-WebUI.waitForElementVisible(findTestObject('Page_/ (1)'), 2)
+WebUI.setText(findTestObject('send outgoing/Page_/input__arabic_name'), 'سجود')
 
-WebUI.setText(findTestObject('Page_/ (1)'), 'أختبار صادر')
-
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_/secret'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_/div_'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Page_/periory'))
-
-WebUI.click(findTestObject('Page_/Major'))
-
-WebUI.scrollToElement(findTestObject('Page_/dep1'), 5)
-
-WebUI.click(findTestObject('Page_/dep1'))
-
-WebUI.click(findTestObject('Page_/gov1'))
-
-WebUI.click(findTestObject('Page_/dep2'))
-
-WebUI.click(findTestObject('Page_/gov2'))
-
-WebUI.click(findTestObject('Page_/dep3'))
-
-WebUI.click(findTestObject('Page_/span_amira sub -'))
-
-WebUI.click(findTestObject('Page_/Save doc'))
+WebUI.click(findTestObject('send outgoing/Page_/secrh for user'))
 

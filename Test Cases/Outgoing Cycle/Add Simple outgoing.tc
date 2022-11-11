@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add outgoing</name>
+   <name>Add Simple outgoing</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dabb56af-57df-4266-a1d8-6d47f1127a97</testCaseGuid>
