@@ -22,13 +22,5 @@ WebUI.callTestCase(findTestCase('Outgoing Cycle/Add Simple outgoing'), [('upload
 
 WebUI.click(findTestObject('send outgoing/Page_/Ok'))
 
-WebUI.switchToFrame(findTestObject('send outgoing/Page_/Page_/popubp'), 3)
-
-WebUI.waitForElementVisible(findTestObject('Page_/md-icon'), 5)
-
-WebUI.click(findTestObject('send outgoing/Page_/md-icon'))
-
-WebUI.setText(findTestObject('send outgoing/Page_/input__arabic_name'), 'سجود')
-
-WebUI.click(findTestObject('send outgoing/Page_/secrh for user'))
+WebUI.closeBrowser()
 

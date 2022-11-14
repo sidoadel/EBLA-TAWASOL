@@ -23,11 +23,11 @@ WebUI.click(findTestObject('outgoing/add outgoing Icon'))
 
 WebUI.click(findTestObject('outgoing/simple add'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(3)
 
-WebUI.setText(findTestObject('outgoing/ (1)'), 'Autmoation Add Outgoing')
+WebUI.setText(findTestObject('outgoing/Subject1'), 'Autmoation outgoing')
 
-WebUI.waitForElementVisible(findTestObject('outgoing/secret'), 5)
+WebUI.waitForElementClickable(findTestObject('outgoing/secret'), 5)
 
 WebUI.click(findTestObject('outgoing/secret'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -56,4 +56,6 @@ WebUI.click(findTestObject('outgoing/span_amira sub -'))
 WebUI.uploadFile(findTestObject('outgoing/input__upload-file-content'), GlobalVariable.upload)
 
 WebUI.click(findTestObject('outgoing/Save doc'))
+
+WebUI.click(findTestObject('Page_/Ok'))
 

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name> (1)</name>
+   <name>Subject1</name>
    <tag></tag>
    <elementGuidId>9542ebb9-f662-4656-8499-f3b014f6add3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='docSubject']</value>
+         <key>CSS</key>
+         <value>#docSubject</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@name = 'docSubject' and @id = 'docSubject']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#docSubject</value>
+         <key>XPATH</key>
+         <value>//textarea[@id='docSubject']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
+      <webElementGuid>fa65f943-b9f7-46a7-b972-a0e850b9b45f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>name</name>
       <type>Main</type>
       <value>docSubject</value>
+      <webElementGuid>2696193f-42a0-40a5-ac83-d8f441d2f6df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>docSubject</value>
+      <webElementGuid>41b5be54-de4d-4661-b91d-fd20c068a0d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>1000</value>
+      <webElementGuid>c13617bc-137a-41b3-bf0a-50fad4e6533c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>md-maxlength</name>
       <type>Main</type>
       <value>1000</value>
+      <webElementGuid>176a81e5-58f2-4ea9-aba9-5b4505c377fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
       <name>ng-disabled</name>
       <type>Main</type>
       <value>!!ctrl.disableProperties</value>
+      <webElementGuid>7ea75a7d-e2ea-4e4e-8314-9d1b2dd260b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>ctrl.document.docSubject</value>
+      <webElementGuid>f98143da-e95f-4df6-99b0-352ecb764b02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>ng-required</name>
       <type>Main</type>
       <value>ctrl.checkMandatory('docSubject')</value>
+      <webElementGuid>e2d68030-0f1a-4411-a82a-6f9ce55a6bbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-untouched md-input ng-empty ng-invalid ng-invalid-required ng-valid-md-maxlength ng-valid-maxlength</value>
+      <webElementGuid>96f88e38-06a0-4d4a-8ed3-ef00bb927f8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>b8d4b812-2b58-4e3e-820b-583b78b140e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>required</name>
       <type>Main</type>
       <value>required</value>
+      <webElementGuid>0c34729b-40c0-47e7-ba11-547c4ba736dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>e48a3f48-abe8-4b1a-bd4e-122efeba2766</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;docSubject&quot;)</value>
+      <webElementGuid>4a6cb98e-5160-4b7b-bde2-c8e2512360e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -117,6 +130,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='docSubject']</value>
+      <webElementGuid>25a9d6c6-7435-45b0-8cc2-f72e75798422</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,6 +138,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sub-view-wrapper']/ui-view/div/div[2]/div[2]/div/div/div/div/div/div/accordion-directive/accordion-item/accordion-content/div/manage-properties-simple-directive/div/form/div/div[5]/md-input-container/div/textarea</value>
+      <webElementGuid>22a0d9e3-5ec1-44c3-abcd-ed08dd794b01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,5 +146,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
+      <webElementGuid>244d8e21-d3d8-4ec8-a05d-2ba0b41263f3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

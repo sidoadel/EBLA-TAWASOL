@@ -6,10 +6,6 @@
    <elementGuidId>e8680126-8ed1-4855-a8cf-7875b6a342e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//md-select-value[@id='select_value_label_183']/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#select_value_label_183 > span.md-select-icon</value>
       </entry>
@@ -17,8 +13,12 @@
          <key>BASIC</key>
          <value>id(&quot;select_value_label_183&quot;)/span[@class=&quot;md-select-icon&quot;][count(. | //span[@class = 'md-select-icon' and @aria-hidden = 'true']) = count(//span[@class = 'md-select-icon' and @aria-hidden = 'true'])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//md-select-value[@id='select_value_label_183']/span[2]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>2d007a83-c6bd-43ab-9202-e82b292f82cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,6 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>md-select-icon</value>
+      <webElementGuid>8d629b77-19b3-4de1-bec5-46c17c2faeb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +42,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>9a9b44a1-aed1-4598-9b1d-140e5973131a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select_value_label_183&quot;)/span[@class=&quot;md-select-icon&quot;]</value>
+      <webElementGuid>a37b1f0e-5bae-46e7-8e92-28578f9770b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//md-select-value[@id='select_value_label_183']/span[2]</value>
+      <webElementGuid>2565ca47-509e-4873-9938-d35fb642d8af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,5 +66,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/md-input-container/md-select/md-select-value/span[2]</value>
+      <webElementGuid>bcc8371b-e1dd-41f8-bb6d-405b68c417d9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -25,7 +25,7 @@ WebUI.click(findTestObject('outgoing/simple add'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.setText(findTestObject('outgoing/ (1)'), 'Autmoation Add Outgoing')
+WebUI.setText(findTestObject('outgoing/Subject1'), 'Autmoation Add Outgoing')
 
 WebUI.waitForElementVisible(findTestObject('outgoing/secret'), 5)
 
